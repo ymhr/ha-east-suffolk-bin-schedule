@@ -10,8 +10,7 @@
       }
     },
     "error": {
-      "cannot_connect": "Unable to connect to East Suffolk Council website. Check your network.",
-      "no_collections": "No collections found for that UPRN. Double-check the number."
+      "cannot_connect": "Unable to connect to East Suffolk Council website. Check your network."
     },
     "abort": {
       "already_configured": "This UPRN is already configured."

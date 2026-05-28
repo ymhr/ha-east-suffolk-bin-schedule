@@ -17,11 +17,9 @@ STEP_USER_DATA_SCHEMA = vol.Schema({
 async def _validate_uprn(hass: HomeAssistant, uprn: str) -> str | None:
     """Return an error key, or None if valid."""
     try:
-        rows = await hass.async_add_executor_job(_fetch_raw, uprn, 7)
+        await hass.async_add_executor_job(_fetch_raw, uprn, 28)
     except Exception:
         return "cannot_connect"
-    if not rows:
-        return "no_collections"
     return None
 
 
