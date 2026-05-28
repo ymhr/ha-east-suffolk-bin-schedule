@@ -1,0 +1,12 @@
+{
+  "domain": "east_suffolk_bins",
+  "name": "East Suffolk Bins",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/ymhr/ha-east-suffolk-bin-schedule",
+  "issue_tracker": "https://github.com/ymhr/ha-east-suffolk-bin-schedule/issues",
+  "codeowners": ["@ymhr"],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "homeassistant": "2024.1.0"
+}

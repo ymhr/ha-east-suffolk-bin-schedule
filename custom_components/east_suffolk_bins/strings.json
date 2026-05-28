@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "East Suffolk Bins",
+        "description": "Enter your UPRN (Unique Property Reference Number). Find it at https://uprn.uk — search by postcode and look for your address in the list.",
+        "data": {
+          "uprn": "UPRN"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to East Suffolk Council website. Check your network.",
+      "no_collections": "No collections found for that UPRN. Double-check the number."
+    },
+    "abort": {
+      "already_configured": "This UPRN is already configured."
+    }
+  }
+}
